@@ -14,7 +14,7 @@ dotenv.config();
 
 app.use(cors(
     { 
-        origin:"https://think-tank-iu9y.vercel.app",
+        origin:"https://career-coach-fe.vercel.app",
         methods:["POST","GET" , "DELETE"],
         credentials:true
     }
